@@ -257,7 +257,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     "corsheaders",
     "rest_framework",
-    "marimushaanchorapp.anchor",
+    'marimushaanchorapp.anchor.apps.AnchorConfig',
     "polaris",
 ]
 
