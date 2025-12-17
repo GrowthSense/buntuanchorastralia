@@ -258,7 +258,7 @@ INSTALLED_APPS = [
     "corsheaders",
     "rest_framework",
     "marimushaanchorapp.anchor",
-    "polaris.apps.PolarisConfig",
+    "polaris",
 ]
 
 MIDDLEWARE = [
