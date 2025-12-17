@@ -298,7 +298,7 @@ DATABASES = {
         'NAME': os.getenv('DB_NAME', 'australiaanchor'),
         'USER': os.getenv('DB_USER', 'postgres'),
         'PASSWORD': os.getenv('DB_PASSWORD', 'Letmein99x!'),
-        'HOST': os.getenv('DB_HOST', '161.97.76.198'),
+        'HOST': os.getenv('DB_HOST', 'localhost'),
         'PORT': os.getenv('DB_PORT', '5432'),
     }
 }
