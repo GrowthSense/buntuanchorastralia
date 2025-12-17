@@ -295,8 +295,8 @@ WSGI_APPLICATION = 'marimushaanchorapp.anchor.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.getenv('DB_NAME', 'marimushaanchor_testnet_australia'),
-        'USER': os.getenv('DB_USER', 'marimushauser'),
+        'NAME': os.getenv('DB_NAME', 'australiaanchor'),
+        'USER': os.getenv('DB_USER', 'postgres'),
         'PASSWORD': os.getenv('DB_PASSWORD', 'Letmein99x!'),
         'HOST': os.getenv('DB_HOST', '161.97.76.198'),
         'PORT': os.getenv('DB_PORT', '5432'),
