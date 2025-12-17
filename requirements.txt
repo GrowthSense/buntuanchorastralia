@@ -1,17 +1,18 @@
 # =========================
-# Django Core (LTS)
+# Django Core (LTS – Polaris Compatible)
 # =========================
-Django==4.2.27
-asgiref==3.8.1
-sqlparse==0.5.3
-pytz==2025.2
+Django==3.2.25
+asgiref==3.7.2
+sqlparse==0.4.4
+pytz==2024.1
 
 # =========================
 # Django Extensions
 # =========================
-django-cors-headers==4.4.0
-djangorestframework==3.15.2
-django-model-utils==5.0.0
+django-cors-headers==3.13.0
+djangorestframework==3.14.0
+django-model-utils==4.5.1
+django-polaris==2.5.0
 django-environ==0.11.2
 
 # =========================
@@ -20,27 +21,19 @@ django-environ==0.11.2
 psycopg2-binary==2.9.9
 
 # =========================
-# Stellar SDK (NO django-polaris)
+# Stellar / Polaris Dependencies
 # =========================
-stellar-sdk==12.2.1
+stellar-sdk==8.2.1
 xdrlib3==0.1.1
 
 # =========================
-# HTTP / Async Libraries
+# HTTP / Async
 # =========================
-requests==2.32.3
-aiohttp==3.9.5
-aiohttp-sse-client==0.2.1
-requests-sse==0.5.1
-
-aiohappyeyeballs==2.4.3
-aiosignal==1.3.1
-multidict==6.0.5
-yarl==1.9.4
-frozenlist==1.4.1
+requests==2.31.0
+aiohttp==3.8.6
 
 # =========================
-# Environment & Configuration
+# Environment
 # =========================
 python-dotenv==1.0.1
 
@@ -54,20 +47,9 @@ cffi==1.16.0
 pycparser==2.21
 
 # =========================
-# Data Validation & Serialization
-# =========================
-pydantic==2.7.4
-pydantic_core==2.18.4
-annotated-types==0.6.0
-typing_extensions==4.13.2
-
-# =========================
 # Utilities
 # =========================
-toml==0.10.2
-mnemonic==0.20
 attrs==23.2.0
-propcache==0.2.0
 certifi==2024.2.2
 charset-normalizer==3.3.2
 idna==3.7
@@ -76,4 +58,4 @@ urllib3==2.2.1
 # =========================
 # Static Files
 # =========================
-whitenoise==6.6.0
+whitenoise==6.5.0
