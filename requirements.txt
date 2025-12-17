@@ -30,7 +30,7 @@ xdrlib3==0.1.1
 # HTTP / Async
 # =========================
 requests==2.31.0
-aiohttp==3.8.6
+aiohttp==3.9.1
 
 # =========================
 # Environment
