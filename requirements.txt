@@ -23,7 +23,7 @@ psycopg2-binary==2.9.9
 # =========================
 # Stellar / Polaris Stack
 # =========================
-stellar-sdk==10.4.0
+stellar-sdk==10.0.0
 xdrlib3==0.1.1
 
 # =========================
