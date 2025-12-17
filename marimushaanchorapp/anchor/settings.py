@@ -296,7 +296,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME':'australiaanchor',
-        'USER':'anchor_australia_user',
+        'USER':'anchoraustralia_user',
         'PASSWORD':'Letmein99x!',
         'HOST':'localhost',
         'PORT':'5432',
